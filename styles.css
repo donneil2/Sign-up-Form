@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: "norse";
+    src: url(fonts/Norse.woff2);
+    src: url(fonts/Norsebold.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+  
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh; 
+    width: auto;
+}
+
+
+.left-side {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom:  10px;
+    height: auto;
+    width: 45%;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-color: #cccccc;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.odin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    
+    color: white;
+    font: 
+    1em "norse";
+    font-size: 80px;
+    margin-top: 50%;
+    padding: 15px ;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+
+    color: white;
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    opacity: 0.7;
+    
+}
+
+.foto-link {
+    color: #ffffff;
+    
+}
+
+.foto-link:hover {
+    color:#ffffff;    
+    cursor:pointer;  
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 55%;
+    margin: 35px;
+}
+
+.text-field {
+    margin-top: 100px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.input-header {
+    margin-top: 80px;
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 30px;
+    margin-right: 80px;
+    font-size: 10px;
+    color: rgb(126, 126, 126);
+   
+}
+
+.row {
+    margin-bottom: 40px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.row input{
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .row input[type='password']:invalid {
+    border: 3px solid #D55C5F;
+    color: #000000;
+    box-shadow: none;
+  }
+
+  .row input[type='email']:invalid {
+    border: 1px solid red;
+    outline: none;
+    box-shadow: none;
+  }
+
+  input:focus {
+    border: 1px solid #3f72ff;
+    outline: none;
+    color: #000000;
+    box-shadow: 0 0 0 1px hsl(213, 90%, 70%);
+  }
+
+  .submit-button {
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  button[type="submit"] {
+    background-color: #596D48;
+    padding: 8px 30px 8px 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .login-link {
+    color:#596D48;
+    text-decoration: none;
+  }
+
+
+
+
+
+
